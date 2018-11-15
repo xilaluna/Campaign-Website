@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    border: 5px solid red;
+    padding: 7px;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.firstimg{
+    height: 250%;
+}
+.first_ptag{
+    margin-left: 10px;
+}
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
