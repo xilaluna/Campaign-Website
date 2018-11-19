@@ -1,9 +1,10 @@
 <!DOCTYPE html> <html><head>
         <title>Campaign Website</title>
     <style>
-.container{
+.container_one{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .title{
     border: 5px solid red;
@@ -12,29 +13,108 @@
     background-color: blue;
     color: white;
 }
-.container2{
+.container_two{
     display: flex;
     justify-content: space-around;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    border: 5px solid red;
 }
 .firstimg{
-    height: 250%;
+    width: 500px;
+    height: 500px;
 }
-.first_ptag{
+.ptag{
     margin-left: 10px;
 }
-body{
+.section{
     padding-left: 15%;
     padding-right: 15%;
-}</style></head>
+}
+.container_three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    border: 5px solid red;
+}
+.container_three img{
+    width: 200px;
+    height: 200px;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url("https://media.giphy.com/media/sFMDqop2ku4M0/giphy.gif");
+}
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #c72020;
+	-webkit-box-shadow: 0px 10px 14px -7px #c72020;
+	box-shadow: 0px 10px 14px -7px #c72020;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #9e0f0f));
+	background:-moz-linear-gradient(top, #ff0000 5%, #9e0f0f 100%);
+	background:-webkit-linear-gradient(top, #ff0000 5%, #9e0f0f 100%);
+	background:-o-linear-gradient(top, #ff0000 5%, #9e0f0f 100%);
+	background:-ms-linear-gradient(top, #ff0000 5%, #9e0f0f 100%);
+	background:linear-gradient(to bottom, #ff0000 5%, #9e0f0f 100%);
+	background-color:#ff0000;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9e0f0f), color-stop(1, #ff0000));
+	background:-moz-linear-gradient(top, #9e0f0f 5%, #ff0000 100%);
+	background:-webkit-linear-gradient(top, #9e0f0f 5%, #ff0000 100%);
+	background:-o-linear-gradient(top, #9e0f0f 5%, #ff0000 100%);
+	background:-ms-linear-gradient(top, #9e0f0f 5%, #ff0000 100%);
+	background:linear-gradient(to bottom, #9e0f0f 5%, #ff0000 100%);
+	background-color:#9e0f0f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style></head>
     <body>
-        <div class="container">
-            <h1 class="title">Face Mcshooty For President</h1>
-        </div>
-        <div class="container2">
-            <img class="firstimg" src="https://pbs.twimg.com/profile_images/770267242537836548/awOC_AYn_400x400.jpg">
-            <p class="first_ptag">IN THE FACE! NEED IT! WANT IT NEED IT HAVE TO HAVE IT! FACESHOT! BOOM! BRAINS EVERYWHERE! Not the KNEE, not the ARM, not the SPINE - FACE! IT HAS TO HAPPEN! HNNNNG! FACEY FACEY FACE FACE! TIRED OF WAITING! NO MORE WAITING! NEED A FACE SHOT! BOOM! SQUISH! YAY!
-                SHOOT ME IN THE FAAAAAAAACE! DO IT! SHOOT ME IN THE FACE! FACE FACEFACEFACEFACE! NOW! BULLETS IN THE FACE! WANT EM! NEED EM! GIMMEGIMMEGIMME! AT THE SOUND OF THE BELL IT WILL BE FACESHOOTING O'CLOCK! BONGGGGG! KNOCK KNOCK WHO'S THERE SHOOT ME IN THE FACE! END OF JOKE! I'M GONNA SING A SONG! SHOOT ME AT THE END OF IT! ...I NOTICE YOU HAVEN'T SHOT ME IN THE FACE! CURIOUS AS TO WHY! Maybe you're weighing the moral pros and cons but let me assure you that OH MY GOD SHOOT ME IN THE GODDAMNED FACE WHAT ARE YOU WAITING FOR!
-                (When shot in the face) THANK YOU!</p>
+        <div class="section">
+            <div class="container_one">
+                <h1 class="title">Face Mcshooty For President</h1>
+            </div>
+            <div class="container_two">
+                <img class="firstimg" src="https://pbs.twimg.com/profile_images/770267242537836548/awOC_AYn_400x400.jpg">
+                <p class="ptag">"IN THE FACE! NEED IT! WANT IT NEED IT HAVE TO HAVE IT! FACESHOT! BOOM! BRAINS EVERYWHERE! Not the KNEE, not the ARM, not the SPINE - FACE! IT HAS TO HAPPEN! HNNNNG! FACEY FACEY FACE FACE! TIRED OF WAITING! NO MORE WAITING! NEED A FACE SHOT! BOOM! SQUISH! YAY! SHOOT ME IN THE FAAAAAAAACE! DO IT! SHOOT ME IN THE FACE! FACE FACEFACEFACEFACE! NOW! BULLETS IN THE FACE! WANT EM! NEED EM! GIMMEGIMMEGIMME! AT THE SOUND OF THE BELL IT WILL BE FACESHOOTING O'CLOCK! BONGGGGG! KNOCK KNOCK WHO'S THERE SHOOT ME IN THE FACE! END OF JOKE! I'M GONNA SING A SONG! SHOOT ME AT THE END OF IT! ...I NOTICE YOU HAVEN'T SHOT ME IN THE FACE! CURIOUS AS TO WHY! Maybe you're weighing the moral pros and cons but let me assure you that OH MY GOD SHOOT ME IN THE GODDAMNED FACE WHAT ARE YOU WAITING FOR!
+                (When shot in the face) THANK YOU!"-Face Mcshooty</p>
+            </div>
+            <div>
+                <p>
+                
+                </p>
+            </div>
+            <div class="container_three">
+                <img src="https://vignette.wikia.nocookie.net/board8/images/6/6d/Face_McShooty.jpg/revision/latest?cb=20130927154640">
+                <img src="https://i.ytimg.com/vi/2vaBXYeJR00/maxresdefault.jpg">
+                <img src="https://steamuserimages-a.akamaihd.net/ugc/282973442549785415/B4CD282E81AE51E14D2BD78115F3617811407E0D/">
+                <div class="donate">
+                <p>Donate Now</p>
+                <button class="myButton">Donate</button>
+                </div>
+            </div>
         </div>
     
 
